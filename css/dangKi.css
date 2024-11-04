@@ -32,7 +32,7 @@ section .content {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 40%;
   width: 576px;
   height: 115vh;
   transform: translateX(-50%);
