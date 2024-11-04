@@ -39,7 +39,7 @@ section .content {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 40%;
   width: 576px;
   transform: translateX(-50%);
   background-color: rgba(26, 25, 25, 0.6392156863);
