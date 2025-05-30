@@ -1,0 +1,397 @@
+{
+  "bangchamcong": [
+    {
+      "MaChamCong": 1,
+      "NgayChamCong": "2024-11-12 00:00:00",
+      "GioBatDau": "06:00:00",
+      "GioKetThuc": "14:00:00",
+      "MaNV": "NVBH001"
+    },
+    {
+      "MaChamCong": 2,
+      "NgayChamCong": "2024-11-04 00:00:00",
+      "GioBatDau": "14:00:00",
+      "GioKetThuc": "18:00:00",
+      "MaNV": "NVBH002"
+    }
+  ],
+  "bangluong": [
+    {
+      "MaBangLuong": 1,
+      "ThangLuong": 1,
+      "SoGioLamViec": 0,
+      "LuongCoBan": 23.8,
+      "Thuong": null,
+      "Tong": 0,
+      "MaNV": "NVBH001"
+    },
+    {
+      "MaBangLuong": 2,
+      "ThangLuong": 1,
+      "SoGioLamViec": 0,
+      "LuongCoBan": 30,
+      "Thuong": null,
+      "Tong": 0,
+      "MaNV": "NVBH002"
+    }
+  ],
+  "chitietdonhang": [
+    {
+      "idorder": 1,
+      "MaDonHang": 1,
+      "MaMonAn": 2,
+      "Soluongdat": 5
+    },
+    {
+      "idorder": 2,
+      "MaDonHang": 2,
+      "MaMonAn": 3,
+      "Soluongdat": 7
+    },
+    {
+      "idorder": 3,
+      "MaDonHang": 1,
+      "MaMonAn": 7,
+      "Soluongdat": 2
+    },
+    {
+      "idorder": 4,
+      "MaDonHang": 2,
+      "MaMonAn": 6,
+      "Soluongdat": 3
+    }
+  ],
+  "cuahang": [
+    {
+      "idcuahang": 1,
+      "TenCuaHang": "Quang Trung",
+      "DiaChi": "157 Quang Trung",
+      "MaNV": "QL001"
+    },
+    {
+      "idcuahang": 2,
+      "TenCuaHang": "Lê Quang Định",
+      "DiaChi": "1145 Lê Quang Định",
+      "MaNV": "QL002"
+    }
+  ],
+  "dondathang": [
+    {
+      "MaDonDat": 1,
+      "NgayDatHang": "2024-11-05 05:35:38",
+      "SLDat": 13,
+      "TongTien": 1620000.0,
+      "TrangThaiDon": "Đã xác nhận",
+      "MaNguyenLieu": 3
+    },
+    {
+      "MaDonDat": 2,
+      "NgayDatHang": "2024-11-06 07:36:12",
+      "SLDat": 10,
+      "TongTien": 567000.0,
+      "TrangThaiDon": "Đã xác nhận",
+      "MaNguyenLieu": 1
+    },
+    {
+      "MaDonDat": 3,
+      "NgayDatHang": "2024-11-08 07:41:06",
+      "SLDat": 4,
+      "TongTien": 120000.68,
+      "TrangThaiDon": "Đang chờ xử lý",
+      "MaNguyenLieu": 5
+    },
+    {
+      "MaDonDat": 4,
+      "NgayDatHang": "2024-11-10 07:41:10",
+      "SLDat": 5,
+      "TongTien": 100000.0,
+      "TrangThaiDon": "Đã hủy",
+      "MaNguyenLieu": 7
+    }
+  ],
+  "donhang": [
+    {
+      "MaDonHang": 1,
+      "NgayDatHang": "2024-11-05 05:35:38",
+      "TongTien": 235000,
+      "TrangThai": "Đã hoàn thành",
+      "MaKH": 1
+    },
+    {
+      "MaDonHang": 2,
+      "NgayDatHang": "2024-11-07 08:29:34",
+      "TongTien": 540000,
+      "TrangThai": "Đã hoàn thành",
+      "MaKH": 2
+    }
+  ],
+  "khachhang": [
+    {
+      "MaKH": 1,
+      "HoTen": "Minh An",
+      "DiaChi": null,
+      "SoDienThoai": "0123792365",
+      "email": null,
+      "LichsuDatHang": null,
+      "MaDonHang": 1,
+      "password": "an1234"
+    },
+    {
+      "MaKH": 2,
+      "HoTen": "Khánh Vy",
+      "DiaChi": "124 An Dương Vương",
+      "SoDienThoai": "0978171742",
+      "email": null,
+      "LichsuDatHang": null,
+      "MaDonHang": 2,
+      "password": "vy1234"
+    },
+    {
+      "MaKH": 3,
+      "HoTen": "Quốc Bảo",
+      "DiaChi": "78A Quốc lộ 50",
+      "SoDienThoai": "0907555479",
+      "email": "bao123@gmail.com",
+      "LichsuDatHang": "2024-11-03 14:43:24",
+      "MaDonHang": 3,
+      "password": "bao123"
+    }
+  ],
+  "khuyenmai": [
+    {
+      "idKM": 1,
+      "TenChuongTrinh": "Giảm giá 20% món chính",
+      "NgayBatDau": "2024-11-01 00:00:00",
+      "NgayKetThuc": "2024-11-15 23:59:59",
+      "MucGiamGia": 20,
+      "MaMon": 1
+    },
+    {
+      "idKM": 2,
+      "TenChuongTrinh": "Tặng kèm nước uống",
+      "NgayBatDau": "2024-11-10 00:00:00",
+      "NgayKetThuc": "2024-11-20 23:59:59",
+      "MucGiamGia": 100,
+      "MaMon": 5
+    }
+  ],
+
+  "lichlamviec": [
+    {
+      "MaLichLV": 1,
+      "CaLV": "Sáng",
+      "NgayLamViec": "2024-11-15 00:00:00",
+      "MaNV": "NVBH001"
+    },
+    {
+      "MaLichLV": 2,
+      "CaLV": "Chiều",
+      "NgayLamViec": "2024-11-15 00:00:00",
+      "MaNV": "NVBH002"
+    },
+    {
+      "MaLichLV": 3,
+      "CaLV": "Tối",
+      "NgayLamViec": "2024-11-16 00:00:00",
+      "MaNV": "QL001"
+    }
+  ],
+
+  "mon": [
+    {
+      "MaMonAn": 2,
+      "TenMonAn": "Pizza phô mai",
+      "GiaGoc": 108000,
+      "GiaGiam": null,
+      "Mota": "Bánh pizza đế mềm giòn, phủ phô mai mozzarella thơm ngậy, tan chảy trên bề mặt.",
+      "Hinhanh": "pizza phô mai.jpg",
+      "MaNguyenLieu": 6
+    },
+    {
+      "MaMonAn": 3,
+      "TenMonAn": "Pizza hải sản",
+      "GiaGoc": 149000,
+      "GiaGiam": null,
+      "Mota": "Đế bánh mỏng kết hợp với sốt cà chua, phô mai và các loại hải sản tươi như tôm, mực, và nghêu.",
+      "Hinhanh": "pzhaisan.jpg",
+      "MaNguyenLieu": 6
+    },
+    {
+      "MaMonAn": 4,
+      "TenMonAn": "Pizza thập cẩm",
+      "GiaGoc": 200000,
+      "GiaGiam": null,
+      "Mota": "Sự kết hợp hoàn hảo của phô mai, xúc xích, thịt xông khói, ớt chuông, và nấm trên nền sốt cà chua.",
+      "Hinhanh": "pzthapcam.jpg",
+      "MaNguyenLieu": 6
+    },
+    {
+      "MaMonAn": 5,
+      "TenMonAn": "Gà rán giòn cay",
+      "GiaGoc": 45000,
+      "GiaGiam": null,
+      "Mota": "Gà chiên giòn tan với lớp vỏ phủ gia vị cay nồng, hấp dẫn vị giác.",
+      "Hinhanh": "gacay.jpg",
+      "MaNguyenLieu": 1
+    },
+    {
+      "MaMonAn": 6,
+      "TenMonAn": "Gà rán mật ong",
+      "GiaGoc": 54000,
+      "GiaGiam": null,
+      "Mota": "Lớp da gà vàng óng được phủ sốt mật ong ngọt nhẹ, đậm đà, thấm đều vào từng miếng thịt.",
+      "Hinhanh": "ga ran mat ong.jpg",
+      "MaNguyenLieu": 1
+    },
+    {
+      "MaMonAn": 7,
+      "TenMonAn": "Gà rán truyền thống",
+      "GiaGoc": 39000,
+      "GiaGiam": null,
+      "Mota": "Lớp da vàng giòn rụm.",
+      "Hinhanh": "ga.jpg",
+      "MaNguyenLieu": 1
+    },
+    {
+      "MaMonAn": 8,
+      "TenMonAn": "Hamburger bò",
+      "GiaGoc": 37000,
+      "GiaGiam": null,
+      "Mota": "Bánh hamburger với nhân thịt bò nướng thơm phức, kèm phô mai, xà lách, cà chua và sốt mayonnaise.",
+      "Hinhanh": "f2.png",
+      "MaNguyenLieu": 7
+    },
+    {
+      "MaMonAn": 9,
+      "TenMonAn": "Hamburger gà",
+      "GiaGoc": 36000,
+      "GiaGiam": null,
+      "Mota": "Bánh hamburger với nhân gà rán giòn rụm, ăn kèm rau xanh và sốt đặc biệt.",
+      "Hinhanh": "hamga.jpg",
+      "MaNguyenLieu": 1
+    },
+    {
+      "MaMonAn": 10,
+      "TenMonAn": "Salad rau trộn",
+      "GiaGoc": 17000,
+      "GiaGiam": null,
+      "Mota": "Rau xà lách tươi mát, cà chua bi, dưa chuột, và sốt chua ngọt, mang đến bữa ăn nhẹ lành mạnh.",
+      "Hinhanh": "salad.jpg",
+      "MaNguyenLieu": 4
+    },
+    {
+      "MaMonAn": 11,
+      "TenMonAn": "Khoai tây chiên truyền thống",
+      "GiaGoc": 25000,
+      "GiaGiam": null,
+      "Mota": "Những miếng khoai tây chiên vàng ươm, giòn rụm, dùng kèm với sốt cà hoặc tương ớt.",
+      "Hinhanh": "f5.png",
+      "MaNguyenLieu": 8
+    },
+    {
+      "MaMonAn": 12,
+      "TenMonAn": "Khoai tây lắc phô mai",
+      "GiaGoc": 29000,
+      "GiaGiam": null,
+      "Mota": "Khoai tây chiên giòn lắc cùng bột phô mai béo ngậy, thơm ngon.",
+      "Hinhanh": "khoaiphomai.jpg",
+      "MaNguyenLieu": 8
+    },
+    {
+      "MaMonAn": 13,
+      "TenMonAn": "Hotdog xúc xích",
+      "GiaGoc": 28000,
+      "GiaGiam": null,
+      "Mota": "Xúc xích nướng thơm lừng trong bánh mì dài mềm, thêm sốt cà chua và mù tạt.",
+      "Hinhanh": "hotdog.jpg",
+      "MaNguyenLieu": 9
+    },
+    {
+      "MaMonAn": 14,
+      "TenMonAn": "Sandwich kẹp thịt nguội",
+      "GiaGoc": 24000,
+      "GiaGiam": null,
+      "Mota": "Bánh sandwich mềm với nhân thịt nguội, phô mai, xà lách và một chút sốt mayonnaise.",
+      "Hinhanh": "sw.jpg",
+      "MaNguyenLieu": 10
+    },
+    {
+      "MaMonAn": 15,
+      "TenMonAn": "Tacos bò tiêu đen",
+      "GiaGoc": 65000,
+      "GiaGiam": null,
+      "Mota": "Lớp vỏ bánh ngô giòn tan kèm nhân bò xay đậm đà, phô mai, rau thơm và sốt đặc biệt.",
+      "Hinhanh": "tacos.jpg",
+      "MaNguyenLieu": 7
+    }
+  ],
+
+  "nguoidung": [
+    {
+      "MaNV": "NVB001",
+      "password": "b01",
+      "HoTen": "Nguyễn Đăng Nguyễn",
+      "DiaChi": "56 Nguyễn Văn Trỗi",
+      "Sdt": "0952147963",
+      "Email": "nguyen@gmail.com",
+      "ChucVu": "NhanVien",
+      "ViTri": "Bep",
+      "PhanQuyen": "nhanvienbep"
+    },
+    {
+      "MaNV": "NVB002",
+      "password": "nv02",
+      "HoTen": "Nguyễn Thị Yến Nhi",
+      "DiaChi": "19 Nguyễn Trãi",
+      "Sdt": "0987423106",
+      "Email": "yen@gmail.com",
+      "ChucVu": "NhanVien",
+      "ViTri": "Bep",
+      "PhanQuyen": "nhanvienbep"
+    },
+    {
+      "MaNV": "QL001",
+      "password": "123456",
+      "HoTen": "Trần Thanh Bình",
+      "DiaChi": "23A Quang Trung",
+      "Sdt": "0862636527",
+      "Email": "binh@gmail.com",
+      "ChucVu": "QuanLy",
+      "ViTri": "Quang Trung",
+      "PhanQuyen": "Admin"
+    },
+    {
+      "MaNV": "QL002",
+      "password": "789456",
+      "HoTen": "Trần Đức Hoàng",
+      "DiaChi": "38 Lê Quang Định",
+      "Sdt": "0956412459",
+      "Email": "hoang@gmail.com",
+      "ChucVu": "QuanLy",
+      "ViTri": "Lê Quang Định",
+      "PhanQuyen": "Admin"
+    },
+    {
+      "MaNV": "NVBH001",
+      "password": "mua002",
+      "HoTen": "Phạm Quang Minh",
+      "DiaChi": "85C Hoàng Diệu",
+      "Sdt": "0962354126",
+      "Email": "phquang@gmail.com",
+      "ChucVu": "NhanVien",
+      "ViTri": "Quang Trung",
+      "PhanQuyen": "nhanvienbanhang"
+    },
+    {
+      "MaNV": "NVBH002",
+      "password": "pass003",
+      "HoTen": "Nguyễn Văn Tân",
+      "DiaChi": "31 Phạm Văn Đồng",
+      "Sdt": "0987456123",
+      "Email": "tan.van@gmail.com",
+      "ChucVu": "NhanVien",
+      "ViTri": "Lê Quang Định",
+      "PhanQuyen": "nhanvienbanhang"
+    }
+  ]
+}
